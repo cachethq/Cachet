@@ -49,19 +49,19 @@ body.status-page {
     }
 
     .text-success, .text-component-1 {
-        color: $cachet_green;
+        color: $cachet-green;
     }
 
     .text-info, .text-component-2 {
-        color: $cachet_blue;
+        color: $cachet-blue;
     }
 
     .text-alert, .text-component-3 {
-        color: $cachet_yellow;
+        color: $cachet-yellow;
     }
 
     .text-danger, .text-component-4 {
-        color: $cachet_red;
+        color: $cachet-red;
     }
 
     .container {
@@ -173,19 +173,19 @@ body.status-page {
                     }
                 }
                 &.status-0 {
-                    color: $cachet_pink;
+                    color: $cachet-pink;
                 }
                 &.status-1 {
-                    color: $cachet_orange;
+                    color: $cachet-orange;
                 }
                 &.status-2 {
-                    color: $cachet_yellow;
+                    color: $cachet-yellow;
                 }
                 &.status-3 {
-                    color: $cachet_blue;
+                    color: $cachet-blue;
                 }
                 &.status-4 {
-                    color: $cachet_green;
+                    color: $cachet-green;
                 }
             }
             &.last:before {
@@ -260,7 +260,7 @@ body.status-page {
         .list-group-item {
             border-radius: 0;
             background-color: #ffffff;
-            border: 1px solid $cachet_gray_light;
+            border: 1px solid $cachet-gray_light;
             font-size: 1.1em;
             padding: 15px 15px;
 
@@ -293,7 +293,7 @@ body.status-page {
             }
 
             &.group-name {
-                background-color: $cachet_gray_light;
+                background-color: $cachet-gray_light;
                 padding: {
                     top: 0.6em;
                     bottom: 0.6em;
@@ -315,7 +315,7 @@ body.status-page {
 
         &.components {
             @extend .panel;
-            border-color: $cachet_gray_light;
+            border-color: $cachet-gray_light;
 
             &:last-child {
                 margin-bottom: 30px;
@@ -345,7 +345,7 @@ body.status-page {
         bottom: 0;
         height: 60px;
         padding: 30px 0 60px 0;
-        border-top: 1px solid $cachet_gray_light;
+        border-top: 1px solid $cachet-gray_light;
         color: $cachet-gray-darker;
         font-size: 13px;
         line-height: 30px;
@@ -364,7 +364,7 @@ body.status-page {
                 border-radius: 3px;
                 background-color: $cachet-gray-darker;
                 text-align: center;
-                color: $cachet_gray_light;
+                color: $cachet-gray_light;
                 transition: all 0.15s;
                 padding: 0 10px 0 10px;
 

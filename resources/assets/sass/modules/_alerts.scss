@@ -1,11 +1,11 @@
 .alert {
     border-radius: 4px;
-    background: $cachet_yellow;
-    border: solid 2px $cachet_dark-yellow;
+    background: $cachet-yellow;
+    border: solid 2px $cachet-dark-yellow;
 
     &.alert-success {
-        background-color: $cachet_green;
-        border: solid 2px $cachet_dark-green;
+        background-color: $cachet-green;
+        border: solid 2px $cachet-dark-green;
         color: white;
 
         a {
@@ -15,8 +15,8 @@
     }
 
     &.alert-info {
-        background: $cachet_blue;
-        border: solid 2px $cachet_dark-blue;
+        background: $cachet-blue;
+        border: solid 2px $cachet-dark-blue;
         color: white;
 
         a {
@@ -26,8 +26,8 @@
     }
 
     &.alert-danger {
-        background: $cachet_red;
-        border: solid 2px $cachet_dark-red;
+        background: $cachet-red;
+        border: solid 2px $cachet-dark-red;
         color: white;
 
         a {

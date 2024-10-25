@@ -3,11 +3,11 @@ $cachet-base-light: #fff;
 $cachet-base-medium: #f0f3f4;
 $cachet-base-dark: #333;
 
-$cachet-primary: #7ED321;
-$cachet-secondary: #6DB81C;
+$cachet-primary: #04C147;
+$cachet-secondary: darken($cachet-primary, 20%);
 
-$cachet-link: #7ed321;
-$cachet-link-hover: #01579b;
+$cachet-link: $cachet-primary;
+$cachet-link-hover: darken($cachet-primary, 40%);
 
 $cachet-gray-light: #e8e8e8;
 $cachet-gray: #999;
@@ -19,10 +19,10 @@ $cachet-icons: #5e5e5e;
 $cachet-green: $cachet-primary;
 $cachet-dark-green: darken($cachet-green, 10%);
 
-$cachet-blue: #3498db;
+$cachet-blue: #BFDBFE;
 $cachet-dark-blue: darken($cachet-blue, 10%);
 
-$cachet-red: #ff6f6f;
+$cachet-red: #fed7aa;
 $cachet-dark-red: darken($cachet-red, 10%);
 
 $cachet-teal: #0dccc0;
@@ -31,11 +31,11 @@ $cachet-dark-teal: darken($cachet-teal, 10%);
 $cachet-yellow: #F7CA18;
 $cachet-dark-yellow: darken($cachet-yellow, 10%);
 
-$cachet-pink: #b23f73;
+$cachet-pink: #d4d4d8;
 $cachet-dark-pink: darken($cachet-pink, 10%);
 
 $cachet-grey: #ecf0f1;
 $cachet-dark-grey: darken($cachet-grey, 10%);
 
-$cachet-orange: #FF8800;
+$cachet-orange: #fed7aa;
 $dark-orange: darken($cachet-orange, 10%);

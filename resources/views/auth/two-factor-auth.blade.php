@@ -7,7 +7,7 @@
         <div class="row">
             <div class="form-bg">
                 <div class="logo">
-                    <img src="{{ asset('/img/cachet-logo@2x.png') }}" class="img-responsive">
+                    <img src="{{ asset('/img/cachet-logo.svg') }}" class="img-responsive">
                 </div>
 
                 <br>

@@ -57,11 +57,11 @@ class ThemeComposer
         $view->withThemeTextColor($this->config->get('setting.style_text_color', '#333333'));
         $view->withThemeReds($this->config->get('setting.style_reds', '#FF6F6F'));
         $view->withThemeBlues($this->config->get('setting.style_blues', '#3498DB'));
-        $view->withThemeGreens($this->config->get('setting.style_greens', '#7ED321'));
+        $view->withThemeGreens($this->config->get('setting.style_greens', '#04C147'));
         $view->withThemeYellows($this->config->get('setting.style_yellows', '#F7CA18'));
-        $view->withThemeOranges($this->config->get('setting.style_oranges', '#FF8800'));
+        $view->withThemeOranges($this->config->get('setting.style_oranges', '#fed7aa'));
         $view->withThemeGreys($this->config->get('setting.style_greys', '#888888'));
-        $view->withThemeMetrics($this->config->get('setting.style_metrics', '#0DCCC0'));
-        $view->withThemeLinks($this->config->get('setting.style_links', '#7ED321'));
+        $view->withThemeMetrics($this->config->get('setting.style_metrics', '#04C147'));
+        $view->withThemeLinks($this->config->get('setting.style_links', '#04C147'));
     }
 }

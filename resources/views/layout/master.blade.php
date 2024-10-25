@@ -16,14 +16,14 @@
 
     <meta property="og:type" content="website">
     <meta property="og:title" content="@yield('title', $siteTitle)">
-    <meta property="og:image" content=" {{ asset('/img/favicon.png') }}">
+    <meta property="og:image" content=" {{ asset('/img/apple-touch-icon.png') }}">
     <meta property="og:description" content="@yield('description', trans('cachet.meta.description.overview', ['app' => $appName]))">
 
     <!-- Mobile IE allows us to activate ClearType technology for smoothing fonts for easy reading -->
     <meta http-equiv="cleartype" content="on">
 
     <meta name="msapplication-TileColor" content="{{ $themeGreens }}" />
-    <meta name="msapplication-TileImage" content="{{ asset('/img/favicon.png') }}" />
+    <meta name="msapplication-TileImage" content="{{ asset('/img/apple-touch-icon.png') }}" />
 
     <link href="{{ Request::fullUrl() }}" rel="canonical">
 
@@ -32,7 +32,7 @@
     <link rel="shortcut icon" href="{{ asset("/img/{$favicon}.png") }}" type="image/png">
     @else
     <link rel="icon" href="{{ asset('/img/favicon.ico') }}" type="image/x-icon">
-    <link rel="shortcut icon" href="{{ asset('/img/favicon.png') }}" type="image/png">
+    <link rel="shortcut icon" href="{{ asset('/img/apple-touch-icon.png') }}" type="image/png">
     @endif
 
     <link rel="apple-touch-icon" href="{{ asset('/img/apple-touch-icon.png') }}">

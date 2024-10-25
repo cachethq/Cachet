@@ -10,7 +10,7 @@
     <meta name="token" content="{{ csrf_token() }}">
 
     <link rel="icon" type="image/png" href="{{ asset('/img/favicon.ico') }}">
-    <link rel="shortcut icon" href="{{ asset('/img/favicon.png') }}" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ asset('/img/apple-touch-icon.png') }}" type="image/x-icon">
 
     <link rel="apple-touch-icon" href="{{ asset('/img/apple-touch-icon.png') }}">
     <link rel="apple-touch-icon" sizes="57x57" href="{{ asset('/img/apple-touch-icon-57x57.png') }}">
