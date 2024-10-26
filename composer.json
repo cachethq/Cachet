@@ -24,13 +24,13 @@
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",
+        "laravel/pail": "^1.1",
         "laravel/pint": "^1.13",
         "laravel/sail": "^1.26",
         "mockery/mockery": "^1.6",
-        "nunomaduro/collision": "^8.0",
+        "nunomaduro/collision": "^8.1",
         "pestphp/pest": "^2.23",
-        "pestphp/pest-plugin-laravel": "^2.2",
-        "spatie/laravel-ignition": "^2.4"
+        "pestphp/pest-plugin-laravel": "^2.2"
     },
     "autoload": {
         "psr-4": {
@@ -59,6 +59,10 @@
         ],
         "post-create-project-cmd": [
             "@php artisan key:generate --ansi"
+        ],
+        "dev": [
+            "Composer\\Config::disableProcessTimeout",
+            "npx concurrently -c \"#93c5fd,#c4b5fd,#fb7185,#fdba74\" \"php artisan serve\" \"php artisan queue:listen --tries=1\" \"php artisan pail --timeout=0\" \"npm run dev\" --names=server,queue,logs,vite"
         ]
     },
     "extra": {
