@@ -1,0 +1,29 @@
+version: 2
+updates:
+  - package-ecosystem: composer
+    directory: "/"
+    schedule:
+      interval: daily
+      time: "07:00"
+    groups:
+      php-dependencies:
+        update-types:
+          - "minor"
+          - "patch"
+    allow:
+      - dependency-type: direct
+    versioning-strategy: increase-if-necessary
+
+  - package-ecosystem: npm
+    directory: "/"
+    schedule:
+      interval: weekly
+      day: monday
+    groups:
+      js-dependencies:
+        update-types:
+          - "minor"
+          - "patch"
+    allow:
+      - dependency-type: direct
+    versioning-strategy: increase-if-necessary
