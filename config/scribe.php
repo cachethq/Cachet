@@ -1,5 +1,14 @@
 <?php
 
+/*
+ * This file is part of Cachet.
+ *
+ * (c) Alt Three Services Limited
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
 use Knuckles\Scribe\Extracting\Strategies;
 
 return [
@@ -74,7 +83,7 @@ return [
     ],
 
     'external' => [
-        'html_attributes' => []
+        'html_attributes' => [],
     ],
 
     'try_it_out' => [
@@ -122,7 +131,7 @@ return [
     ],
 
     // Text to place in the "Introduction" section, right after the `description`. Markdown and HTML are supported.
-    'intro_text' => <<<INTRO
+    'intro_text' => <<<'INTRO'
 This documentation aims to provide all the information you need to work with our API.
 
 <aside>As you scroll, you'll see code examples for working with the API in different programming languages in the dark area to the right (or as part of the content on mobile).
@@ -158,7 +167,7 @@ INTRO
         'enabled' => true,
 
         'overrides' => [
-             'info.version' => '3.0.0',
+            'info.version' => '3.0.0',
         ],
     ],
 
@@ -178,7 +187,7 @@ INTRO
             'Incident Templates',
             'Metrics',
             'Metric Points',
-            'Schedules'
+            'Schedules',
         ],
     ],
 
@@ -233,9 +242,9 @@ INTRO
                 'override',
                 [
                     'Content-Type' => 'application/json',
-                    'Accept' => 'application/json',
-                ]
-            ]
+                    'Accept'       => 'application/json',
+                ],
+            ],
         ],
         'bodyParameters' => [
             Strategies\BodyParameters\GetFromFormRequest::class,
@@ -257,8 +266,8 @@ INTRO
                     'config' => [
                         'app.debug' => false,
                     ],
-                ]
-            ]
+                ],
+            ],
         ],
         'responseFields' => [
             Strategies\ResponseFields\GetFromResponseFieldAttribute::class,
