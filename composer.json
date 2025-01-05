@@ -10,14 +10,15 @@
     ],
     "repositories": {
         "cachet-core": {
-            "type": "path",
-            "url": "../cachet-core"
+            "type": "vcs",
+            "url": "git@github.com:cachethq/core.git"
         }
     },
     "require": {
         "php": "^8.2",
         "cachethq/core": "*",
         "guzzlehttp/guzzle": "^7.2",
+        "joelbutcher/scribe-laravel-data-plugin": "^1.0@beta",
         "laravel/framework": "^11.2",
         "laravel/sanctum": "^4.0",
         "laravel/tinker": "^2.9"

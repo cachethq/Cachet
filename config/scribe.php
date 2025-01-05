@@ -247,6 +247,7 @@ INTRO
             ],
         ],
         'bodyParameters' => [
+            \JoelButcher\ScribeLaravelDataPlugin\Plugin::class,
             Strategies\BodyParameters\GetFromFormRequest::class,
             Strategies\BodyParameters\GetFromInlineValidator::class,
             Strategies\BodyParameters\GetFromBodyParamAttribute::class,
