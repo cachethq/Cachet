@@ -48,7 +48,7 @@
     @if($enableExternalDependencies)
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&amp;subset={{ $fontSubset }}" rel="stylesheet" type="text/css">
     @endif
-    <link rel="stylesheet" href="{{ asset(mix('dist/css/app.css')) }} ">
+    <link rel="stylesheet" href="{{ asset(mix('dist/css/app.css')) }}">
 
     @include('partials.stylesheet')
 
