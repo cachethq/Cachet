@@ -36,7 +36,7 @@ To test out the v3 demo, you can log in to the [Cachet dashboard](https://v3.cac
 > **Note**
 > The demo will automatically reset every 30 minutes.
 > 
-> ## Sponsors
+## Sponsors
 
 <p align="center">
     <a href="https://jump24.co.uk"><img width="100px" src="https://github.com/jumptwentyfour.png" alt="Jump24"></a>
