@@ -11,7 +11,7 @@
 
 namespace App\Models;
 
-use Cachet\Concerns\CachetUser;
+use Cachet\Models\User as CachetUser;
 // use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Filament\Models\Contracts\FilamentUser;
 use Filament\Panel;
@@ -20,10 +20,9 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
 
-class User extends Authenticatable implements CachetUser, FilamentUser
+class User extends CachetUser implements FilamentUser
 {
     use HasApiTokens;
-    use HasFactory;
     use Notifiable;
 
     /**
