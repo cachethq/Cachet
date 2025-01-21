@@ -1096,12 +1096,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/cachethq/core.git",
-                "reference": "a8e971b6e05915a5e58fcb5a59eef34ec58150a6"
+                "reference": "dd15050e5a4ac44a93ec035f9265967503763753"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cachethq/core/zipball/a8e971b6e05915a5e58fcb5a59eef34ec58150a6",
-                "reference": "a8e971b6e05915a5e58fcb5a59eef34ec58150a6",
+                "url": "https://api.github.com/repos/cachethq/core/zipball/dd15050e5a4ac44a93ec035f9265967503763753",
+                "reference": "dd15050e5a4ac44a93ec035f9265967503763753",
                 "shasum": ""
             },
             "require": {
@@ -1125,6 +1125,7 @@
                 "twig/twig": "^3.0"
             },
             "require-dev": {
+                "dedoc/scramble": "0.12.0-alpha.1",
                 "larastan/larastan": "^3.0",
                 "laravel/pail": "^1.1",
                 "orchestra/testbench": "^9.5.1",
@@ -1211,7 +1212,7 @@
                 "issues": "https://github.com/cachethq/core/issues",
                 "source": "https://github.com/cachethq/core"
             },
-            "time": "2025-01-17T17:34:10+00:00"
+            "time": "2025-01-20T20:41:33+00:00"
         },
         {
             "name": "carbonphp/carbon-doctrine-types",
