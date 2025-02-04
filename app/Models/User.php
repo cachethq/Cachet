@@ -12,11 +12,12 @@
 namespace App\Models;
 
 use Cachet\Models\User as CachetUser;
-// use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Filament\Models\Contracts\FilamentUser;
 use Filament\Panel;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
+
+// use Illuminate\Contracts\Auth\MustVerifyEmail;
 
 class User extends CachetUser implements FilamentUser
 {
@@ -33,6 +34,7 @@ class User extends CachetUser implements FilamentUser
         'email',
         'password',
         'is_admin',
+        'preferred_locale',
     ];
 
     /**
