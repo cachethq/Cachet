@@ -25,3 +25,10 @@ use Illuminate\Support\Facades\Route;
 /*Route::get('/', function () {
     return view('welcome');
 });*/
+
+Route::get('/email/verify/{id}/{hash}', [\App\Http\Controllers\VerificationController::class, 'verify'])
+    ->middleware(['auth:sanctum', 'signed', 'throttle:6,1'])
+    ->name('verification.verify');
+Route::post('/email/resend', [\App\Http\Controllers\VerificationController::class, 'resend'])
+    ->middleware(['auth:sanctum', 'throttle:6,1'])
+    ->name('verification.resend');
