@@ -5,7 +5,7 @@
     </picture>
 </p>
 
-Cachet, the open-source status page system.
+Cachet, the open-source self-hosted status page system.
 
 ## Cachet 3.x Announcement
 
