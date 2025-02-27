@@ -19,6 +19,7 @@
         "cachethq/core": "dev-main",
         "guzzlehttp/guzzle": "^7.2",
         "laravel/framework": "^11.2",
+        "laravel/nightwatch": "^1.0",
         "laravel/sanctum": "^4.0",
         "laravel/tinker": "^2.9"
     },
