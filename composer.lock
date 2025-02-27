@@ -1096,24 +1096,26 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/cachethq/core.git",
-                "reference": "6280995f97c4a9b4b404f8d1433abf39b1e3506b"
+                "reference": "7101318bb438e704a6ca71a45f43d9207e60b473"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cachethq/core/zipball/6280995f97c4a9b4b404f8d1433abf39b1e3506b",
-                "reference": "6280995f97c4a9b4b404f8d1433abf39b1e3506b",
+                "url": "https://api.github.com/repos/cachethq/core/zipball/7101318bb438e704a6ca71a45f43d9207e60b473",
+                "reference": "7101318bb438e704a6ca71a45f43d9207e60b473",
                 "shasum": ""
             },
             "require": {
                 "doctrine/dbal": "^3.6",
+                "ext-simplexml": "*",
                 "filament/filament": "^3.2.57",
                 "filament/spatie-laravel-settings-plugin": "^3.2",
                 "guzzlehttp/guzzle": "^7.8",
-                "illuminate/console": "^11.23.0",
-                "illuminate/database": "^11.23.0",
-                "illuminate/events": "^11.23.0",
-                "illuminate/queue": "^11.23.0",
-                "illuminate/support": "^11.23.0",
+                "illuminate/cache": "^11.35.0",
+                "illuminate/console": "^11.35.0",
+                "illuminate/database": "^11.35.0",
+                "illuminate/events": "^11.35.0",
+                "illuminate/queue": "^11.35.0",
+                "illuminate/support": "^11.35.0",
                 "laravel/sanctum": "^4.0",
                 "nesbot/carbon": "^2.70",
                 "php": "^8.2",
@@ -1212,7 +1214,7 @@
                 "issues": "https://github.com/cachethq/core/issues",
                 "source": "https://github.com/cachethq/core"
             },
-            "time": "2025-02-21T09:06:47+00:00"
+            "time": "2025-02-27T09:22:00+00:00"
         },
         {
             "name": "carbonphp/carbon-doctrine-types",
